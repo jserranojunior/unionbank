@@ -10,7 +10,7 @@ services:
     tty: true
     volumes:
       - "./vhost.conf:/opt/docker/etc/httpd/vhost.conf"
-      - "../sistema:/var/www/html/sistema"
+      - "../../sistema:/var/www/html/sistema"
     networks:
       - internal
     labels:
