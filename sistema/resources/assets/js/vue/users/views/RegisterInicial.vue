@@ -137,7 +137,7 @@ body,
 html {
   background-size: cover;
   background-repeat: repeat-y;
-  /* background-color: #00A4BA;   */
+  /* background: rgb(0, 56, 161) 100%;   */
   background-repeat: repeat-x;
   margin: 0px;
 }
@@ -162,7 +162,7 @@ html {
 }
 
 .text-smart {
-  color: #00a4ba;
+  color: rgb(0, 56, 161) 100%;
 }
 
 .row-suporte {

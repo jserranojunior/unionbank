@@ -60,7 +60,7 @@
       Union Bank
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2017 <a href="#">Elo</a>.</strong>
+    <strong>Copyright &copy; 2017 <a href="#">Union</a>.</strong>
   </footer>
 
   <!-- Control Sidebar -->

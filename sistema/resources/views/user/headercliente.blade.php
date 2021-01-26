@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Elo | Início </title>
+  <title>Union | Início </title>
 
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
@@ -24,9 +24,9 @@
 
 
     <a href="#" class="logo">
-      <span class="logo-mini"><b>C</b>E</span>
+      <span class="logo-mini"><b>U</b>B</span>
       <span class="logo-lg">
-      CONTA<b> ELO </b></span>
+     UNION<b> BANK </b></span>
     </a>
 
     <nav class="navbar navbar-static-top" role="navigation">
@@ -175,7 +175,7 @@
             <li><a href="{{URL('extrato')}}"><i class="fa fa-line-chart"></i> <span>EXTRATO</span></a></li>
             
             <li><a href="{{URL('deposito')}}"><i class="fa fa-plus-square-o"></i> <span>DEPOSITO</span></a></li>
-            <li><a href="{{URL('#')}}"><i class="fa fa-heartbeat"></i> <span>ELO PORTAL SAÚDE</span></a></li>  
+            <li><a href="{{URL('#')}}"><i class="fa fa-heartbeat"></i> <span>UNION PORTAL SAÚDE</span></a></li>  
                     
             <li><a href="{{URL('resgate')}}"><i class="fa fa-life-ring"></i> <span>RESGATE</span></a></li>          
             <!-- <li><a href="{{URL('smart/resgate')}}"><i class="fa fa-circle-o-notch "></i> <span>TRANSFÊRENCIAS <br> ENTRE CONTAS</span></a></li>           -->

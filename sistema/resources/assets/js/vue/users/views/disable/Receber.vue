@@ -33,77 +33,77 @@
 </template>
 
 <script>
-import LoginComponent from '../components/auth/Login'
-import RegisterComponent from '../components/auth/Register'
-import ReceberComponent from '../components/auth/Receber'
-import Footer from '../components/layouts/Footer'
+import LoginComponent from "../components/auth/Login";
+import RegisterComponent from "../components/auth/Register";
+import ReceberComponent from "../components/auth/Receber";
+import Footer from "../components/layouts/Footer";
 export default {
-    name: "Receber",
-    components:{
-        LoginComponent,
-        RegisterComponent,
-        ReceberComponent,
-        Footer,
-    }
-}
+  name: "Receber",
+  components: {
+    LoginComponent,
+    RegisterComponent,
+    ReceberComponent,
+    Footer,
+  },
+};
 </script>
 
 <style>
-.hr-space{
-    margin-bottom:40px;
-    margin-top:40px;
+.hr-space {
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
-body{
-    background-color:#00A4BA
+body {
+  background: rgb(0, 56, 161) 100%;
 }
 .img-logo {
-    margin-bottom:20px;
-    margin-top:30px;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 .row-suporte {
-    margin-top: 30px;
-    margin-bottom:15px;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 input.form-control.input-main-login {
-    margin-bottom: 10px;
-    border: aliceblue;
-    border-bottom: 1px solid white;
-    background-color: #f0f8ff00;
-    color: white;
-    border-radius: 0rem;
+  margin-bottom: 10px;
+  border: aliceblue;
+  border-bottom: 1px solid white;
+  background-color: #f0f8ff00;
+  color: white;
+  border-radius: 0rem;
 }
 
 .form-control:focus {
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #ced4da;
+  color: #ced4da;
 }
 
 /* WebKit, Blink, Edge */
 
 .form-control:-moz-placeholder {
-    color: #ced4da;
+  color: #ced4da;
 }
 
 /* Mozilla Firefox 4 to 18 */
 
 .form-control::-moz-placeholder {
-    color: white;
+  color: white;
 }
 
 /* Mozilla Firefox 19+ */
 
 .form-control:-ms-input-placeholder {
-    color: white;
+  color: white;
 }
 
 /* Internet Explorer 10-11 */
 
 .form-control::-ms-input-placeholder {
-    color: white;
+  color: white;
 }
 
 /* Microsoft Edge */

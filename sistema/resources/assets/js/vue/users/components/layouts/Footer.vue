@@ -8,7 +8,7 @@
                     <div class="btn btn-outline-light ">SUPORTE</div>
                 </div>
                 <div class="col-6 text-right">
-                    <div class="btn btn-outline-light ">ELO</div>
+                    <div class="btn btn-outline-light ">UNION</div>
                 </div>
             
         
@@ -17,8 +17,7 @@
 </template>
 
 <script>
-    export default {
-        name: "Footer"
-    }
+export default {
+  name: "Footer",
+};
 </script>
-

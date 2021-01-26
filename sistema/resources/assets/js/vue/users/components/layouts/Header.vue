@@ -34,25 +34,23 @@
 
 <script>
 export default {
-    name: "Header"
-}
+  name: "Header",
+};
 </script>
 
 <style>
 .row-space-header {
-    /* margin-top: 20px; */
+  /* margin-top: 20px; */
 }
-body{
-    background-color:#00A4BA
+body {
+  background: rgb(0, 56, 161) 100%;
 }
-.img-logo{
-        width: 200px;
+.img-logo {
+  width: 200px;
 }
 @media (min-width: 260px) and (max-width: 400px) {
-   .img-logo{
-        width: 120px;
+  .img-logo {
+    width: 120px;
+  }
 }
-}
-
 </style>
-

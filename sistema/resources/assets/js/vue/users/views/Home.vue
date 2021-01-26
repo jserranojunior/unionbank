@@ -97,50 +97,50 @@
 
 <script>
 export default {
-    name: "Home"
-}
+  name: "Home",
+};
 </script>
 
 <style>
-.btn-present{
-    margin-top:20px;
-    margin-bottom:20px;
+.btn-present {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 img.img-celular.img-fluid {
-    position: absolute;
-    top: -181px;
-    width: 80%;
+  position: absolute;
+  top: -181px;
+  width: 80%;
 }
 
 img.img-logo.img-fluid {
-    width: 326px;
+  width: 326px;
 }
 
-.bg-black{
-    background-color:#211F21! important;
+.bg-black {
+  background-color: #211f21 !important;
 }
-.bg-smart, body{
-    background-color: #00A4BA
+.bg-smart,
+body {
+  background: rgb(0, 56, 161) 100%;
 }
 
 .section {
-    padding-bottom: 20px;
-    padding-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .btn-inicial-smart {
-    margin-bottom: 0px;
-    margin-top: 14px;
+  margin-bottom: 0px;
+  margin-top: 14px;
 }
 
 .btn.btn-inicial-smart.btn-primary {
-    background-color: #fe4d01;
-    width: 6em;
-    border-color: #d64000;
+  background-color: #fe4d01;
+  width: 6em;
+  border-color: #d64000;
 }
 
 .btn.btn-inicial-smart.btn-primary:hover {
-    background-color: #ff601b;
+  background-color: #ff601b;
 }
 </style>
-

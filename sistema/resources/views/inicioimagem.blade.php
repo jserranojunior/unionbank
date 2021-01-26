@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Elo</title>
+    <title>Union</title>
     <!-- Styles -->
     <link href="{{ url('css/all.css') }}" rel="stylesheet">
     <script src="{{ url('js/all.js') }}"></script>

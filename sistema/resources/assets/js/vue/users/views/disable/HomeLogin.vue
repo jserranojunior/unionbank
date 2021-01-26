@@ -98,7 +98,7 @@
                         <h4>
                             <i class="fas fa-chart-line"></i>
                         </h4>
-                        <p class=" text-btn-func text-center"> Elo Invest </p>
+                        <p class=" text-btn-func text-center"> Union Invest </p>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                 <div class="btn btn-light">SUPORTE</div>
             </div>
             <div class="col-6 text-right">
-                <div class="btn btn-light">ELO</div>
+                <div class="btn btn-light">UNION</div>
             </div>
         </div>
     
@@ -148,59 +148,59 @@
 </template>
 
 <script>
-    import Header from '../components/layouts/Header'
+import Header from "../components/layouts/Header";
 export default {
-    name: "HomeLogin",
-    data() {
-        return {
-            mostrarSaldo: false
-        }
-    },
-    components: {
-            Header,
-            },
-}
+  name: "HomeLogin",
+  data() {
+    return {
+      mostrarSaldo: false,
+    };
+  },
+  components: {
+    Header,
+  },
+};
 </script>
 
 <style>
 .card {
-    background-color: #00A4BA;
-    border: 1px solid #f8f9fa;
-    color: white;
+  background: rgb(0, 56, 161) 100%;
+  border: 1px solid #f8f9fa;
+  color: white;
 }
 
 .btn-inicial-func {
-    padding: 15px;
-    margin-bottom: 20px;
-    height: 100px;
+  padding: 15px;
+  margin-bottom: 20px;
+  height: 100px;
 }
 
 .section-funcoes {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .btn-inicial-mini {
-    width: 100%;
-    margin-bottom: 2px;
+  width: 100%;
+  margin-bottom: 2px;
 }
 
 .card-columns {
-    column-count: 2;
+  column-count: 2;
 }
 
 .btn {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 @media (min-width: 260px) and (max-width: 400px) {
-    .text-btn-func {
-        font-size: 0.6rem;
-        font-weight: bold;
-    }
-    .card-deck {
-        column-count: 4;
-    }
-    /* .card-deck .card{
+  .text-btn-func {
+    font-size: 0.6rem;
+    font-weight: bold;
+  }
+  .card-deck {
+    column-count: 4;
+  }
+  /* .card-deck .card{
     margin-left: 4px;
 }
    
@@ -209,5 +209,3 @@ export default {
     } */
 }
 </style>
-
-

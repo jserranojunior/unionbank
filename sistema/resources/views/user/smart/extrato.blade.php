@@ -16,7 +16,7 @@
             <thead>    
             <tr>
                     <td class="text-left">DATA</td>
-                    <td class="text-right">ELO</td>
+                    <td class="text-right">UNION</td>
                 </tr>
         </thead>
                             <tbody>

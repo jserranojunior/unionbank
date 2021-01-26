@@ -80,8 +80,8 @@ export default {
   methods: {
     ...mapActions(["LoginLaravel"]),
     Login() {
-      var pathname = window.location.pathname;
-      let url = pathname + "api/users/login";
+      var pathname = window.location.host;
+      let url = "http://" + pathname + "/api/users/login";
       console.log(url);
       axios
         .post(url, this.inputs)

@@ -77,7 +77,7 @@
         <div class="row  row-servicos">
             <div class="col-md-4">
                 <img class="img-fluid logo-inicial" src="{{URL('/img/logovisa.png')}}" alt="">
-                  <h3>ELO</h3>
+                  <h3>UNION</h3>
                   <p class="text-muted">Banco digital</p>
               </div>
           

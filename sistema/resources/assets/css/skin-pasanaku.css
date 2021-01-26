@@ -36,10 +36,10 @@
   border-color: #e52c22; }
 
 .body-color-inicio {
-  background-color: #00A4BA ; }
+  background: rgb(0, 56, 161) 100% ; }
 
 .skin-blue .main-header .navbar {
-  background-color: #00A4BA ; }
+  background: rgb(0, 56, 161) 100% ; }
 
 .skin-blue .main-header .navbar .nav > li > a {
   color: #fff; }
@@ -73,10 +73,10 @@
   .skin-blue .main-header .navbar .dropdown-menu li a {
     color: #fff; }
   .skin-blue .main-header .navbar .dropdown-menu li a:hover {
-    background: #00A4BA ; } }
+    background: rgb(0, 56, 161) 100% ; } }
 
 .skin-blue .main-header .logo {
-  background-color: #00A4BA ;
+  background: rgb(0, 56, 161) 100% ;
   color: #fff;
   border-bottom: 0 solid transparent; }
 
@@ -84,7 +84,7 @@
   background-color: #357ca5; }
 
 .skin-blue .main-header li.user-header {
-  background-color: #00A4BA ; }
+  background: rgb(0, 56, 161) 100% ; }
 
 .skin-blue .content-header {
   background: transparent; }
@@ -112,7 +112,7 @@
   background: #1e282c; }
 
 .skin-blue .sidebar-menu > li.active > a {
-  border-left-color: #00A4BA ; }
+  border-left-color: rgb(0, 56, 161) 100% ; }
 
 .skin-blue .sidebar-menu > li > .treeview-menu {
   margin: 0 1px;
@@ -166,18 +166,18 @@
   border-bottom-left-radius: 0; }
 
 .skin-blue.layout-top-nav .main-header > .logo {
-  background-color: #00A4BA ;
+  background: rgb(0, 56, 161) 100% ;
   color: #fff;
   border-bottom: 0 solid transparent; }
 
 .skin-blue.layout-top-nav .main-header > .logo:hover {
-  background-color: #00A4BA ; }
+  background: rgb(0, 56, 161) 100% ; }
 
 .skin-blue .main-header .logo:hover {
-  background-color: #00A4BA ; }
+  background: rgb(0, 56, 161) 100% ; }
 
 .btn-primary, .btn-primary:focus {
-  background-color: #00A4BA ;
+  background: rgb(0, 56, 161) 100% ;
   border-color: #b75539; }
 
 .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus,
@@ -187,7 +187,7 @@
   border-color: #b75539; }
 
 body.color-pasanaku {
-  background-color: #00A4BA ; }
+  background: rgb(0, 56, 161) 100% ; }
 
 .configdiv {
   border: 1px solid #DDDDDD;
@@ -202,8 +202,8 @@ body.color-pasanaku {
   color: white; }
 
 .navbar-default {
-  background-color: #00A4BA ;
-  border-color: #00A4BA ; }
+  background: rgb(0, 56, 161) 100% ;
+  border-color: rgb(0, 56, 161) 100% ; }
 
 .navbar-default .navbar-brand {
   color: #fff; }
@@ -226,10 +226,10 @@ body.color-pasanaku {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 .bg-light-blue, .label-primary, .modal-primary .modal-body {
-  background-color: #00A4BA  !important; }
+  background: rgb(0, 56, 161) 100%  !important; }
 
 .border-top-color {
-  background-color: #00A4BA ; }
+  background: rgb(0, 56, 161) 100% ; }
 
 .btn-inicial {
   padding: 1rem 2rem;

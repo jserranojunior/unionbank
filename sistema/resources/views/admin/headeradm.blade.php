@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Elo | Início </title>
+  <title>Union | Início </title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
    <link href="{{ url('css/all.css') }}" rel="stylesheet">
@@ -21,8 +21,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <header class="main-header">
  
     <a href="#" class="logo">
-      <span class="logo-mini"><b>C</b>E</span>
-      <span class="logo-lg"><b>CONTA</span>
+      <span class="logo-mini"><b>U</b>B</span>
+      <span class="logo-lg"><b>UNION BANK</span>
     </a>
 
 

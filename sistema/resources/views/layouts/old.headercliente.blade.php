@@ -24,9 +24,9 @@
 
 
     <a href="#" class="logo">
-      <span class="logo-mini"><b>C</b>S</span>
+      <span class="logo-mini"><b>U</b>B</span>
       <span class="logo-lg">
-      CONTA <b> ELO </b></span>
+      UNION <b> BANK </b></span>
     </a>
 
     <nav class="navbar navbar-static-top" role="navigation">
@@ -178,8 +178,8 @@
             </ul>
           </li>
 
-        <li class=""><a href="#"><i class="fa fa-money "></i> <span>ELO</span></a></li>
-        <li class=""><a target="_blank" href="https://app.conta.mobi/login"><i class="fa fa-university"></i> <span>ELO</span></a></li>  
+        <li class=""><a href="#"><i class="fa fa-money "></i> <span>UNION</span></a></li>
+        <li class=""><a target="_blank" href="https://app.conta.mobi/login"><i class="fa fa-university"></i> <span>UNION</span></a></li>  
 
         
         
