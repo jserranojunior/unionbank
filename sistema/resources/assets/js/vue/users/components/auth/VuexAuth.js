@@ -15,7 +15,7 @@ export default {
     Register(context, data) {
       var pathname = window.location.host;
 
-      url = `http://${pathname}/api/users/register`;
+      let url = `http://${pathname}/api/users/register`;
 
       axios
         .post(url, data)
@@ -31,7 +31,7 @@ export default {
     LoginLaravel(context, data) {
       var pathname = window.location.host;
 
-      url = `http://${pathname}/login`;
+      let url = `http://${pathname}/login`;
 
       axios
         .post(url, data)

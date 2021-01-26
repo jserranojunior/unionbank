@@ -82,7 +82,7 @@ export default {
     Login() {
       var pathname = window.location.host;
 
-      url = `http://${pathname}/api/users/login`;
+      let url = `http://${pathname}/api/users/login`;
 
       axios
         .post(url, this.inputs)
