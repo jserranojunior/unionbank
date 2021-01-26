@@ -1,0 +1,70 @@
+version: "2"
+
+networks:
+  contaelo:
+    driver: bridge
+
+services:
+  php_apache:
+    image: webdevops/php-apache:7.4
+    tty: true
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - "./vhost.conf:/opt/docker/etc/httpd/vhost.conf"
+      - "../:/var/www/html/contaelo"
+      # - "../../../acolher/front/dist:/var/www/html/alvitre/acolher"
+      # - "../../../acolher/back:/var/www/html/alvitre/backacolher"
+      # - "../../../phpmyadmin:/var/www/html/alvitre/phpmyadmin"
+    environment:
+      PMA_HOST: mysql
+    links:
+      - mysql
+    depends_on:
+      - mysql
+    networks:
+      - contaelo
+
+  mysql:
+    image: mysql:8.0.1
+    container_name: mysql
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: contaelo
+      MYSQL_USER: contaelo
+      MYSQL_ROOT_PASSWORD: contaelo
+      SERVICE_NAME: mysql
+    volumes:
+      - ../mysql:/var/lib/mysql
+    networks:
+      - contaelo
+
+  # php_acolher:
+  #   build: .
+  #   container_name: php_acolher
+  #   working_dir: /usr/share/nginx/html
+  #   volumes:
+  #     - ../:/usr/share/nginx/html
+  #   # command: "php artisan serve --host=0.0.0.0 --port=2030"
+  #   ports:
+  #     - "2030:80"
+  #   networks:
+  #     - contaelo
+  #   # environment:
+  #   #   PMA_HOST: mysql
+  #   # links:
+  #   #   - "mysql"
+
+  # composer_acolher:
+  #   image: composer:latest
+  #   container_name: composer_acolher
+  #   volumes:
+  #     - ../:/usr/share/nginx/html
+  #   working_dir: /usr/share/nginx/html
+  #   command: bash -c "rm public/storage && php artisan storage:link"
+  #   depends_on:
+  #     - php_acolher
+  #   networks:
+  #     - acolher
