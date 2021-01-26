@@ -14,8 +14,15 @@ export default {
   actions: {
     Register(context, data) {
       var pathname = window.location.host;
-      let url = "http://" + pathname + "/api/users/register";
-      console.log(url);
+      var port = window.location.port;
+
+      let url = "";
+      if (port > "") {
+        url = `http://${pathname}:${port}/api/users/register`;
+      } else {
+        url = `http://${pathname}/api/users/register`;
+      }
+
       axios
         .post(url, data)
         .then((response) => {
@@ -29,8 +36,15 @@ export default {
     //login no laravel com o csrf
     LoginLaravel(context, data) {
       var pathname = window.location.host;
-      let url = "http://" + pathname + "/login";
-      console.log(url);
+      var port = window.location.port;
+
+      let url = "";
+      if (port > "") {
+        url = `http://${pathname}:${port}/login`;
+      } else {
+        url = `http://${pathname}/login`;
+      }
+
       axios
         .post(url, data)
         .then((response) => {

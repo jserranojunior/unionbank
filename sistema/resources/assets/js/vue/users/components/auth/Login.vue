@@ -81,7 +81,13 @@ export default {
     ...mapActions(["LoginLaravel"]),
     Login() {
       var pathname = window.location.host;
-      let url = "http://" + pathname + "/api/users/login";
+      var port = window.location.port;
+      let url = "";
+      if (port > "") {
+        url = `http://${pathname}:${port}/api/users/login`;
+      } else {
+        url = `http://${pathname}/api/users/login`;
+      }
       console.log(url);
       axios
         .post(url, this.inputs)
