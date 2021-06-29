@@ -1,0 +1,51 @@
+version: "2"
+
+networks:
+  internal:
+    driver: bridge
+
+services:
+  frontend_union:
+    container_name: "frontend_union"
+    image: "node:lts-alpine"
+    working_dir: /app
+    volumes:
+      - "../../front:/app"
+    command: "yarn dev"
+    networks:
+      - internal
+    ports:
+      - "3090:3000"
+    labels:
+      - "traefik.enable=true"
+      - traefik.http.routers.frontunion.rule=Host(`frontunion.localhost`)
+      - traefik.http.services.frontunion.loadbalancer.server.port=3000
+
+  union_back:
+    container_name: union_back
+    build: ../
+    working_dir: /usr/share/nginx/html
+    volumes:
+      - ../../sistema:/usr/share/nginx/html
+    command: "php artisan serve --host=0.0.0.0 --port=2080"
+    tty: true
+    ports:
+      - "2090:2080"
+    networks:
+      - internal
+    labels:
+      - "traefik.enable=true"
+      - traefik.http.routers.unionbank.rule=Host(`union.localhost`)
+      - traefik.http.services.unionbank.loadbalancer.server.port=2080
+
+  # php_lsstar:
+  #   build: .
+  #   container_name: php_lsstar
+  #   working_dir: /usr/share/nginx/html
+  #   volumes:
+  #     - ../:/usr/share/nginx/html
+  #   #command: "php artisan serve --host=0.0.0.0 --port=2030"
+  #   ports:
+  #     - "2030:2030"
+  #   networks:
+  #     - lsstar

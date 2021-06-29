@@ -1,0 +1,19 @@
+version: "2"
+
+networks:
+  internal:
+    driver: bridge
+
+services:
+  union_php_apache:
+    image: webdevops/php-apache:7.4
+    tty: true
+    volumes:
+      - "../../vhost.conf:/opt/docker/etc/httpd/vhost.conf"
+      - "../../sistema:/var/www/html/sistema"
+    networks:
+      - internal
+    labels:
+      - "traefik.enable=true"
+      - traefik.http.routers.unionbank.rule=Host(`unionbank.alvitre.com.br`)
+      - traefik.http.services.unionbank.loadbalancer.server.port=80
